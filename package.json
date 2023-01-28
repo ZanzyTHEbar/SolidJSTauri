@@ -22,7 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1",
     "autoprefixer": "^10.4.12",
-    "babel-loader": "^8.3.0",
+    "babel-loader": "^9.0.0",
     "better-docs": "^2.7.2",
     "eslint": ">=5.16.0",
     "eslint-config-google": "^0.14.0",
