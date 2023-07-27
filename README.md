@@ -14,7 +14,7 @@ This example includes:
 
 ## Usage
 
-[!IMPORTANT]
+> [!IMPORTANT]\
 This project uses `pnpm` by default.
 
 ```bash
