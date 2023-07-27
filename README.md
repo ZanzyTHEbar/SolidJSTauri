@@ -14,8 +14,11 @@ This example includes:
 
 ## Usage
 
+[!IMPORTANT]
+This project uses `pnpm` by default.
+
 ```bash
-$ yarn # or pnpm install or npm install
+$ pnpm install # or yarn install or npm install
 ```
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
@@ -24,7 +27,7 @@ $ yarn # or pnpm install or npm install
 
 In the project directory, you can run:
 
-### `yarn tauri dev`
+### `pnpm tauri dev`
 
 Runs the app in the development mode.<br>
 
@@ -34,24 +37,24 @@ Alternatively open [http://localhost:3000](http://localhost:3000) to view it in 
 
 The page will reload if you make edits.<br>
 
-### `yarn docs`
+### `pnpm docs`
 
 Uses `JSDoc` to build a documentation website based on the projects documentation.
 
-### `yarn lint`
+### `pnpm lint`
 
 Runs `eslint` on all of the included files.
 
-### `yarn format`
+### `pnpm format`
 
-Uses `Prettier` and the above `yarn lint` command to lint and then format all included file types.
+Uses `Prettier` and the above `pnpm lint` command to lint and then format all included file types.
 
 ## Deployment
 
 To build your app, run the following:
 
 ```bash
-yarn tauri build
+pnpm tauri build
 ```
 
 Builds the app for production to the `src-tauri/target` folder.<br>
